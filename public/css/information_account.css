@@ -1,0 +1,144 @@
+.main {
+    min-height: 90vh;
+}
+
+.main .container {
+    border-top: 1px solid var(--shop-color-border);
+    padding-top: 80px;
+}
+
+.main .container .wrap_content {
+
+
+    width: 100%;
+
+
+    display: flex;
+    justify-content: center;
+    /* background-color: aquamarine; */
+    display: flex;
+}
+
+.container .wrap_content .content_left {
+    width: 20%;
+    /* background-color: aqua; */
+}
+
+.container .wrap_content .content_left .AccountSidebar {
+    margin-bottom: 30px;
+    background: #f6f6f6;
+    padding: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container .wrap_content .content_left .AccountAvatar {
+    width: 100px;
+    background: #bbdc38;
+    height: 100px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 40px;
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+
+/* CONTENT RIGHT */
+
+.container .wrap_content .content_right {
+    width: 50%;
+    padding-left: 50px;
+}
+
+.AccountSidebar .AccountTitle {
+    margin-bottom: 10px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    position: relative;
+}
+
+.AccountSidebar .AccountTitle span {
+    font-weight: 700;
+    color: #1451bc;
+}
+
+.fa-user-circle-o:before {
+    content: "\f2be";
+}
+
+.AccountSidebar .AccountList ul>li {
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    color: #686868;
+    margin-bottom: 10px;
+}
+
+.AccountSidebar .AccountList ul>li .fa {
+    margin-right: 5px;
+    min-width: 14px;
+}
+
+.AccountSidebar .AccountList ul {
+    margin-right: 5px;
+    min-width: 14px;
+}
+
+.wrap_inforAccount {
+    position: relative;
+}
+
+.wrap_inforAccount .title-detail {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 700;
+    position: relative;
+    padding-bottom: 8px;
+}
+
+.wrap_inforAccount .title-detail {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 700;
+    position: relative;
+    padding-bottom: 8px;
+}
+
+.wrap_inforAccount span {
+    color: #808080;
+    min-width: 115px;
+    display: inline-block;
+}
+
+.wrap_inforAccount p {
+    font-size: 16px;
+    line-height: 21px;
+    margin: 20px 0 5px;
+    font-weight: 500;
+}
+
+.wrap_inforAccount .btn-update {
+    /* position: absolute; */
+    background: #1351c0;
+    color: #fff;
+    cursor: pointer;
+    z-index: 2;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.wrap_inforAccount .btn-update a {
+    color: #fff;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.wrap_inforAccount p .infor_detail {
+    color: black;
+
+}

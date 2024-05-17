@@ -1,0 +1,59 @@
+.layout-searchPage {
+   margin-bottom: 50px;
+   padding-top: 5px;
+}
+
+.searchPage__container {
+   max-width: 1430px;
+   width: 100%;
+   padding: 0 80px;
+   margin-right: auto;
+   margin-left: auto;
+}
+
+.searchPage__heading-page {
+   position: relative;
+   text-align: center;
+}
+
+.searchPage__heading-page h1 {
+   margin: 25px 0 5px;
+   font-size: 30px;
+}
+
+.searchPage__subtxt::after {
+   content: '';
+   background: #252a2b;
+   display: block;
+   width: 60px;
+   height: 4px;
+   margin: 20px auto 30px;
+}
+
+.searchPage__subtext-result {
+   margin: 0 0 15px;
+}
+
+.searchPage__listProduct-row {
+   margin: 0 -5px;
+   display: flex;
+   flex-wrap: wrap;
+}
+
+.searchPage__listProduct-row>div {
+   flex: 0 0 25%;
+   max-width: calc(25% - 16px);
+   width: 100%;
+   margin: 8px 8px;
+}
+
+#searchPage__pagination {
+   font-size: 24px;
+   font-weight: 600;
+   margin-top: 34px;
+   margin-bottom: 24px;
+}
+
+.searchPage__pagination-shop {
+   text-align: center;
+}

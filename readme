@@ -1,0 +1,22 @@
+link github web cũ: https://github.com/TranThienDat47/Website_Giay
+
+Viết các page trong folder public bằng cách tạo file php cho page đó
+Web site sẽ chạy trên folder public/home.php hoặc ...
+
+css có thể vào main viết thì nên comment trước khi viết để phân biệt nếu không tạo file mới rồi link đến page đo
+js cũng tương tự
+
+------------------------------------
+<25/03/2023>
+những thứ chưa làm được : 
++Wishlist
++Form kiểm tra tình trạng đơn hàng của user
++button đăng nhập khi click vào icon user hông hiện, fix ko dc 
++phần js của DB_promotion( quản lý khuyến mãi) chưa thêm vào vì nó dính tới product
+
+------------------------------------
+24/3/2023
+- Chỉnh sửa source một tí, gom những file php trong public vào thư mục view trong app.
+- Route lại đường dẫn.
+- Cấu hình database (data chưa có tên, sẽ tạo sau).
+Note: Nếu không mở được trang chủ thì vào trong file .htaccess trong thư mục public, thay đổi tên folder source code.

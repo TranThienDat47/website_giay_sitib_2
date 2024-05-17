@@ -1,0 +1,97 @@
+.list-category {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    padding: 8px;
+    flex-wrap: wrap;
+ }
+ #main{
+    margin-left: 15%;;
+ }
+ .item-category {
+    position: relative;
+    flex: 0 0 31%;
+    max-width: 31%;
+    margin: 4px 1%;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 16px;
+ }
+ 
+ .item-category__second {
+    margin-left: 16px;
+    margin-top: 8px;
+    position: relative;
+    padding-bottom: 40px;
+ }
+ 
+ .item-category__second > div {
+    display: flex;
+    flex-direction: column;
+ }
+ 
+ .item-category__third {
+    margin-left: 32px;
+    position: relative;
+    padding-bottom: 40px;
+ }
+ 
+ .item-category__add {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100px;
+    cursor: pointer;
+ }
+ 
+ .item-category__add h3 {
+    user-select: none;
+ }
+ 
+ .item-category__add i {
+    font-size: 30px;
+ }
+ 
+ .btn__add {
+    height: 30px;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #000;
+    font-weight: 600;
+    margin: 4px 0;
+    width: 100px;
+    position: absolute;
+    bottom: 0;
+ }
+ 
+ .btn__add i {
+    margin-left: 6px;
+ }
+ 
+ .btn__del,
+ .btn__del-li {
+    background-color: transparent;
+    border: transparent;
+    color: red;
+    cursor: pointer;
+    margin-left: 6px;
+ }
+ 
+ .btn__del-li {
+    position: absolute;
+    font-size: 20px;
+    top: 6px;
+    right: 10px;
+    color: #000;
+ }
+ 
+ hr {
+    border: none;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+ }
+ 
