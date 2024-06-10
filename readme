@@ -1,3 +1,4 @@
+(Do link github dự án gốc của một thành viên khác tạo ở chế độ private và hiện nay em không còn liên lạc nữa nên em up lại một repositories mới)
 link github web cũ: https://github.com/TranThienDat47/Website_Giay
 
 Viết các page trong folder public bằng cách tạo file php cho page đó
@@ -20,3 +21,10 @@ những thứ chưa làm được :
 - Route lại đường dẫn.
 - Cấu hình database (data chưa có tên, sẽ tạo sau).
 Note: Nếu không mở được trang chủ thì vào trong file .htaccess trong thư mục public, thay đổi tên folder source code.
+
+(Dươi đây là một số hình ảnh commit)
+4dda3e01-93d0-4895-aa6d-b1850b68706e.jpg
+7e8d2fbb-47d2-4460-a9a3-c154ef028d44.jpg
+bcc0f4d0-565f-4e26-8327-274c8431fae7.jpg
+b69ea940-0a49-424e-8b57-8caa3f4d533e.jpg
+f5f66189-f648-49cb-90bb-e581c43954d3.jpg
